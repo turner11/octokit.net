@@ -26,6 +26,8 @@
       "type": "shell",
       "args": [
         "format",
+        "-w",
+        "${workspaceFolder}/Octokit.sln"
       ],
       "presentation": {
         "reveal": "silent",
