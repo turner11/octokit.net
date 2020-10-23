@@ -17,7 +17,7 @@ namespace Octokit.Internal
         {
             var handler = new HttpClientHandler
             {
-                AllowAutoRedirect = false
+                //AllowAutoRedirect = false
             };
 
             if (handler.SupportsAutomaticDecompression)
